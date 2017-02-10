@@ -1,4 +1,9 @@
 @media only screen and (min-width: 1000px){
+  body{
+    max-width: 900px;
+    margin:0 auto;
+  }
+
   .content{
     display:flex;
     flex-wrap: wrap;
@@ -97,11 +102,13 @@
   nav.open{
     background-color: #fff;
     transform: translate(0, 0);
+    height: 300px;
   }
 
   nav.close{
     background-color: #fff;
     transform: translate(300px, 0);
+    height: 300px;
     transition: transform 0.3s ease;
   }
 
@@ -110,7 +117,7 @@
     width: 100%;
     padding: 0;
     font-size: 2em;
-    line-height: 2em;
+    line-height: 3em;
   }
 }
 
